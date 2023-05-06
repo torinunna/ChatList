@@ -14,6 +14,7 @@
 		8651DDAB2A06386A00B09136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8651DDA92A06386A00B09136 /* LaunchScreen.storyboard */; };
 		8651DDB32A0639AC00B09136 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8651DDB22A0639AC00B09136 /* Chat.swift */; };
 		8651DDB52A063E4200B09136 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8651DDB42A063E4200B09136 /* ChatListViewController.swift */; };
+		8651DDB92A06428B00B09136 /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8651DDB82A06428B00B09136 /* ChatListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8651DDAC2A06386A00B09136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8651DDB22A0639AC00B09136 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		8651DDB42A063E4200B09136 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		8651DDB82A06428B00B09136 /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8651DDA02A06386900B09136 /* SceneDelegate.swift */,
 				8651DDB22A0639AC00B09136 /* Chat.swift */,
 				8651DDB42A063E4200B09136 /* ChatListViewController.swift */,
+				8651DDB82A06428B00B09136 /* ChatListCell.swift */,
 				8651DDA42A06386900B09136 /* Main.storyboard */,
 				8651DDA72A06386A00B09136 /* Assets.xcassets */,
 				8651DDA92A06386A00B09136 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8651DDB92A06428B00B09136 /* ChatListCell.swift in Sources */,
 				8651DDB32A0639AC00B09136 /* Chat.swift in Sources */,
 				8651DD9F2A06386900B09136 /* AppDelegate.swift in Sources */,
 				8651DDA12A06386900B09136 /* SceneDelegate.swift in Sources */,
