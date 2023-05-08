@@ -20,7 +20,20 @@ class ChatListCell: UICollectionViewCell {
         profileImageView.image = UIImage(named: chat.name)
         nameLabel.text = chat.name
         chatLabel.text = chat.chat
-        dateLabel.text = chat.date
+        dateLabel.text = formattedDatestring(dateString: chat.date)
     }
+    
+    func formattedDatestring(dateString: String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        
+        if let date = dateFormatter.date(from: dateString) {
+            dateFormatter.dateFormat = "M/d"
+            return dateFormatter.string(from: date)
+        } else {
+            return ""
+        }
+    }
+    
     
 }
