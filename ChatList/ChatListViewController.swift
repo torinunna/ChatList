@@ -9,7 +9,7 @@ import UIKit
 
 class ChatListViewController: UIViewController {
 
-    let chatList: [Chat] = Chat.list
+    var chatList: [Chat] = Chat.list
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -18,6 +18,10 @@ class ChatListViewController: UIViewController {
         
         collectionView.dataSource = self
         collectionView.delegate = self
+        
+        chatList = chatList.sorted(by: { chat1, chat2 in
+            return chat1.date > chat2.date
+        })
     }
 
 }
